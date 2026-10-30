@@ -1,0 +1,54 @@
+# Dependencias
+node_modules/
+.pnpm-store/
+
+# Builds
+dist/
+build/
+coverage/
+.turbo/
+
+# Variables de entorno y secretos (NUNCA versionar)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Datos sintéticos generados (se regeneran con pnpm etl:generate)
+tools/etl/data/*.csv
+tools/etl/data/*.json
+
+# Los resultados del ETL y del benchmark SÍ se versionan como evidencia:
+# tools/etl/output/*
+# tools/benchmark/results/*
+
+# Storage local de imágenes
+.storage/
+apps/api/.storage/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+logs/
+
+# Prisma
+apps/api/prisma/*.db
+
+# Editores / SO
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Flutter / Dart
+apps/mobile/.dart_tool/
+apps/mobile/build/
+apps/mobile/.flutter-plugins
+apps/mobile/.flutter-plugins-dependencies
+apps/mobile/ios/Pods/
+apps/mobile/android/.gradle/
+apps/mobile/android/local.properties
+*.iml

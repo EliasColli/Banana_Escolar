@@ -1,0 +1,254 @@
+{
+  "runId": "08a9f677-d68b-498f-b759-aefaeb558b95",
+  "seed": 2026,
+  "startedAt": "2026-10-30T22:24:23.507Z",
+  "finishedAt": "2026-10-30T22:24:25.816Z",
+  "source": {
+    "reportsFile": "C:\\Users\\anyba\\Documents\\Banana_Escolar\\tools\\etl\\data\\reportes_crudos.csv",
+    "rows": 10450,
+    "users": 210,
+    "checksum": "acd99855c0da515d9983281f6133fa64fff71da72bb36ee0bc62aaea43d2b987"
+  },
+  "counts": {
+    "sourceRows": 10450,
+    "valid": 10000,
+    "discarded": 450,
+    "discardedByReason": {
+      "FECHA_INVALIDA": 40,
+      "CAMPO_OBLIGATORIO_FALTANTE": 120,
+      "TIPO_INVALIDO": 40,
+      "FOLIO_DUPLICADO": 250
+    },
+    "solutions": 8099
+  },
+  "timings": {
+    "extractMs": 95,
+    "validateMs": 48,
+    "loadMs": 2060,
+    "verifyMs": 106,
+    "totalMs": 2309
+  },
+  "load": {
+    "insertedReports": 10000,
+    "insertedSolutions": 8099,
+    "users": 210
+  },
+  "verification": {
+    "totalReportes": 10000,
+    "porEstado": [
+      {
+        "estado": "pendiente",
+        "count": 701
+      },
+      {
+        "estado": "en_proceso",
+        "count": 1200
+      },
+      {
+        "estado": "completado",
+        "count": 8099
+      }
+    ],
+    "totalSoluciones": 8099,
+    "totalUsuarios": [
+      {
+        "rol": "ADMIN",
+        "count": 2
+      },
+      {
+        "rol": "TECNICO",
+        "count": 8
+      },
+      {
+        "rol": "USUARIO",
+        "count": 200
+      }
+    ],
+    "q1PorCategoriaEstado": [
+      {
+        "categoria": "Eléctrico",
+        "estado": "pendiente",
+        "count": 104
+      },
+      {
+        "categoria": "Eléctrico",
+        "estado": "en_proceso",
+        "count": 158
+      },
+      {
+        "categoria": "Eléctrico",
+        "estado": "completado",
+        "count": 1167
+      },
+      {
+        "categoria": "Limpieza",
+        "estado": "pendiente",
+        "count": 109
+      },
+      {
+        "categoria": "Limpieza",
+        "estado": "en_proceso",
+        "count": 152
+      },
+      {
+        "categoria": "Limpieza",
+        "estado": "completado",
+        "count": 1167
+      },
+      {
+        "categoria": "Mobiliario",
+        "estado": "pendiente",
+        "count": 92
+      },
+      {
+        "categoria": "Mobiliario",
+        "estado": "en_proceso",
+        "count": 166
+      },
+      {
+        "categoria": "Mobiliario",
+        "estado": "completado",
+        "count": 1171
+      },
+      {
+        "categoria": "Pintura",
+        "estado": "pendiente",
+        "count": 88
+      },
+      {
+        "categoria": "Pintura",
+        "estado": "en_proceso",
+        "count": 194
+      },
+      {
+        "categoria": "Pintura",
+        "estado": "completado",
+        "count": 1147
+      },
+      {
+        "categoria": "Plomería",
+        "estado": "pendiente",
+        "count": 110
+      },
+      {
+        "categoria": "Plomería",
+        "estado": "en_proceso",
+        "count": 182
+      },
+      {
+        "categoria": "Plomería",
+        "estado": "completado",
+        "count": 1137
+      },
+      {
+        "categoria": "Seguridad",
+        "estado": "pendiente",
+        "count": 98
+      },
+      {
+        "categoria": "Seguridad",
+        "estado": "en_proceso",
+        "count": 177
+      },
+      {
+        "categoria": "Seguridad",
+        "estado": "completado",
+        "count": 1153
+      },
+      {
+        "categoria": "Tecnología",
+        "estado": "pendiente",
+        "count": 100
+      },
+      {
+        "categoria": "Tecnología",
+        "estado": "en_proceso",
+        "count": 171
+      },
+      {
+        "categoria": "Tecnología",
+        "estado": "completado",
+        "count": 1157
+      }
+    ],
+    "q2ActivosPorTecnico": [
+      {
+        "tecnico": "Técnico Manuel Morales",
+        "abiertos": 167
+      },
+      {
+        "tecnico": "Técnico Camila Torres",
+        "abiertos": 155
+      },
+      {
+        "tecnico": "Técnico Diego Vargas",
+        "abiertos": 155
+      },
+      {
+        "tecnico": "Técnico Ricardo Pérez",
+        "abiertos": 150
+      },
+      {
+        "tecnico": "Técnico Alejandro Rodríguez",
+        "abiertos": 148
+      },
+      {
+        "tecnico": "Técnico Paola Hernández",
+        "abiertos": 147
+      },
+      {
+        "tecnico": "Técnico Regina Gómez",
+        "abiertos": 142
+      },
+      {
+        "tecnico": "Técnico Lucía Ruiz",
+        "abiertos": 136
+      }
+    ],
+    "q3ResolucionPorCategoria": [
+      {
+        "categoria": "Pintura",
+        "avgDays": 15.08,
+        "completados": 1147
+      },
+      {
+        "categoria": "Tecnología",
+        "avgDays": 11.06,
+        "completados": 1157
+      },
+      {
+        "categoria": "Mobiliario",
+        "avgDays": 10.05,
+        "completados": 1171
+      },
+      {
+        "categoria": "Seguridad",
+        "avgDays": 7.92,
+        "completados": 1153
+      },
+      {
+        "categoria": "Plomería",
+        "avgDays": 7.04,
+        "completados": 1137
+      },
+      {
+        "categoria": "Eléctrico",
+        "avgDays": 6,
+        "completados": 1167
+      },
+      {
+        "categoria": "Limpieza",
+        "avgDays": 4.08,
+        "completados": 1167
+      }
+    ],
+    "mysqlVersion": "9.6.0"
+  },
+  "strict": true,
+  "errors": [],
+  "environment": {
+    "node": "v24.15.0",
+    "platform": "win32",
+    "mysql": "9.6.0"
+  }
+}

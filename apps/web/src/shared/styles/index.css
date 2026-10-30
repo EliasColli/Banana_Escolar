@@ -1,0 +1,90 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Segoe UI', 'Inter', system-ui, -apple-system, sans-serif;
+  --color-banana-50: #fffbea;
+  --color-banana-100: #fff3c4;
+  --color-banana-200: #fce588;
+  --color-banana-300: #fadb5f;
+  --color-banana-400: #f7c948;
+  --color-banana-500: #f0b429;
+  --color-banana-600: #de911d;
+  --color-banana-700: #cb6e17;
+  --color-banana-800: #b44d12;
+  --color-banana-900: #8d2b0b;
+  --color-leaf-500: #2f9e44;
+  --color-leaf-600: #2b8a3e;
+  --color-leaf-700: #237032;
+  --color-ink-500: #64748b;
+  --color-ink-700: #334155;
+  --color-ink-900: #0f172a;
+}
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-800;
+    font-family: var(--font-sans);
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-banana-600;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+  }
+
+  .input {
+    @apply w-full rounded-xl border border-slate-300 bg-white px-3.5 py-2.5 text-sm text-slate-800 shadow-sm transition placeholder:text-slate-400 focus:border-banana-500 focus:ring-2 focus:ring-banana-200 focus:outline-none disabled:cursor-not-allowed disabled:bg-slate-100;
+  }
+
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-slate-700;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-banana-400 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-banana-400 disabled:cursor-not-allowed disabled:opacity-60;
+    @apply bg-banana-500 text-banana-900 shadow-sm hover:bg-banana-400 active:bg-banana-600;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-banana-400 disabled:cursor-not-allowed disabled:opacity-60;
+    @apply border border-slate-300 bg-white text-slate-700 hover:bg-slate-50;
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-banana-400 disabled:cursor-not-allowed disabled:opacity-60;
+    @apply bg-red-600 text-white hover:bg-red-500;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-banana-400 disabled:cursor-not-allowed disabled:opacity-60;
+    @apply text-slate-600 hover:bg-slate-100;
+  }
+
+  .table-base {
+    @apply w-full border-collapse text-left text-sm;
+  }
+
+  .table-base th {
+    @apply border-b border-slate-200 bg-slate-50 px-4 py-3 text-xs font-semibold tracking-wide text-slate-500 uppercase;
+  }
+
+  .table-base td {
+    @apply border-b border-slate-100 px-4 py-3 align-middle;
+  }
+
+  .table-base tbody tr:hover {
+    @apply bg-banana-50/60;
+  }
+}

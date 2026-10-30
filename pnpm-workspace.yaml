@@ -1,0 +1,13 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+  - "tools/*"
+
+# Flutter (apps/mobile) vive en el mismo repositorio pero NO es un paquete pnpm.
+
+onlyBuiltDependencies:
+  - "@prisma/client"
+  - "@prisma/engines"
+  - prisma
+  - esbuild
+  - bcrypt

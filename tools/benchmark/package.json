@@ -1,0 +1,28 @@
+{
+  "name": "@banana/benchmark",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Benchmark reproducible de consultas sobre MySQL (10k y 1M de reportes)",
+  "scripts": {
+    "seed:10k": "tsx src/seed.ts --size=10000",
+    "seed:1m": "tsx src/seed.ts --size=1000000",
+    "run": "tsx src/bench.ts",
+    "run:10k": "tsx src/bench.ts --size=10000",
+    "run:1m": "tsx src/bench.ts --size=1000000",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint \"src/**/*.ts\" --config eslint.config.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.15.3"
+  },
+  "devDependencies": {
+    "@banana/config-eslint": "workspace:*",
+    "@banana/config-typescript": "workspace:*",
+    "@types/node": "^24.7.2",
+    "eslint": "^9.38.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

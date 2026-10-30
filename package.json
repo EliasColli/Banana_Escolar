@@ -1,0 +1,38 @@
+{
+  "name": "banana-escolar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sistema de gestión y análisis de incidencias escolares (monorepo)",
+  "packageManager": "pnpm@10.18.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md,yml,yaml,css}\" --ignore-path .gitignore",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,json,md,yml,yaml,css}\" --ignore-path .gitignore",
+    "db:migrate": "pnpm --filter @banana/api prisma:migrate",
+    "db:deploy": "pnpm --filter @banana/api prisma:deploy",
+    "db:seed": "pnpm --filter @banana/api prisma:seed",
+    "db:studio": "pnpm --filter @banana/api prisma:studio",
+    "etl:generate": "pnpm --filter @banana/etl generate",
+    "etl:run": "pnpm --filter @banana/etl run run",
+    "bench:seed:10k": "pnpm --filter @banana/benchmark seed:10k",
+    "bench:seed:1m": "pnpm --filter @banana/benchmark seed:1m",
+    "bench:run": "pnpm --filter @banana/benchmark run run",
+    "bench:run:10k": "pnpm --filter @banana/benchmark run run:10k",
+    "bench:run:1m": "pnpm --filter @banana/benchmark run run:1m",
+    "mobile:get": "cd apps/mobile && flutter pub get",
+    "mobile:analyze": "cd apps/mobile && flutter analyze",
+    "mobile:test": "cd apps/mobile && flutter test"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.8",
+    "typescript": "^5.9.3"
+  }
+}

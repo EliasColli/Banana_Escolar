@@ -1,0 +1,451 @@
+row_id,folio,motivo,detalle,correo_usuario,categoria,estado,creado_en,tecnico_correo
+89,REP-2026-91037,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+154,REP-2026-90014,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-01-18 16:00:00,
+301,REP-2026-91048,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-06-02 17:00:00,
+332,REP-2026-90090,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-09-25 20:00:00,
+399,REP-2026-90037,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-06-03 01:00:00,
+456,REP-2026-91032,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+470,REP-2026-91012,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+476,REP-2026-90105,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-05-03 12:00:00,
+518,REP-2026-91044,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-07-05 11:00:00,
+538,REP-2026-90096,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-05-23 21:00:00,
+546,REP-2026-05941,FOLIO_DUPLICADO,REP-2026-05941,usuario141@banana.local,Limpieza,completado,2026-01-24 02:00:00,tecnico5@banana.local
+616,REP-2026-91066,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-08-11 01:00:00,
+688,REP-2026-90089,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-04-17 13:00:00,
+715,REP-2026-90003,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-03-10 13:00:00,
+770,REP-2026-90078,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-04-28 08:00:00,
+808,REP-2026-90070,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-06-11 12:00:00,
+820,REP-2026-90116,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-05-19 17:00:00,
+838,REP-2026-03065,FOLIO_DUPLICADO,REP-2026-03065,usuario65@banana.local,Tecnología,completado,2026-04-26 23:00:00,tecnico1@banana.local
+839,REP-2026-90068,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-02-05 09:00:00,
+931,REP-2026-02325,FOLIO_DUPLICADO,REP-2026-02325,usuario125@banana.local,Eléctrico,pendiente,2026-05-02 21:00:00,
+1011,REP-2026-02866,FOLIO_DUPLICADO,REP-2026-02866,usuario66@banana.local,Mobiliario,completado,2026-05-23 07:00:00,tecnico2@banana.local
+1091,REP-2026-90118,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-05-07 10:00:00,
+1114,REP-2026-91017,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+1186,REP-2026-09593,FOLIO_DUPLICADO,REP-2026-09593,usuario193@banana.local,Mobiliario,en_proceso,2026-08-12 06:00:00,tecnico1@banana.local
+1205,REP-2026-91028,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+1216,REP-2026-90058,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-03-11 08:00:00,
+1270,REP-2026-06446,FOLIO_DUPLICADO,REP-2026-06446,usuario46@banana.local,Tecnología,completado,2026-06-28 22:00:00,tecnico6@banana.local
+1367,REP-2026-90083,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-02-23 12:00:00,
+1369,REP-2026-90076,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-09-14 08:00:00,
+1386,REP-2026-91007,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+1388,REP-2026-05636,FOLIO_DUPLICADO,REP-2026-05636,usuario36@banana.local,Eléctrico,completado,2026-03-20 22:00:00,tecnico4@banana.local
+1396,REP-2026-91054,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-07-31 14:00:00,
+1562,REP-2026-90103,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-07-17 09:00:00,
+1569,REP-2026-03622,FOLIO_DUPLICADO,REP-2026-03622,usuario22@banana.local,Mobiliario,completado,2026-08-21 18:00:00,tecnico6@banana.local
+1597,REP-2026-91013,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+1608,REP-2026-05996,FOLIO_DUPLICADO,REP-2026-05996,usuario196@banana.local,Pintura,completado,2026-06-26 08:00:00,tecnico4@banana.local
+1621,REP-2026-90065,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-09-28 11:00:00,
+1665,REP-2026-07545,FOLIO_DUPLICADO,REP-2026-07545,usuario145@banana.local,Tecnología,completado,2026-04-16 01:00:00,tecnico1@banana.local
+1683,REP-2026-91072,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-03-26 07:00:00,
+1749,REP-2026-04974,FOLIO_DUPLICADO,REP-2026-04974,usuario174@banana.local,Pintura,completado,2026-08-30 03:00:00,tecnico6@banana.local
+1777,REP-2026-90062,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-04-09 14:00:00,
+1866,REP-2026-91047,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-01-10 20:00:00,
+1894,REP-2026-90042,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-04-24 17:00:00,
+1964,REP-2026-90114,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-05-11 23:00:00,
+1978,REP-2026-91041,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-04-19 12:00:00,
+1993,REP-2026-90059,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-06-03 04:00:00,
+2004,REP-2026-91023,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+2012,REP-2026-04984,FOLIO_DUPLICADO,REP-2026-04984,usuario184@banana.local,Seguridad,en_proceso,2026-02-06 21:00:00,tecnico8@banana.local
+2050,REP-2026-05171,FOLIO_DUPLICADO,REP-2026-05171,usuario171@banana.local,Limpieza,completado,2026-04-09 10:00:00,tecnico3@banana.local
+2097,REP-2026-90004,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-10-27 16:00:00,
+2144,REP-2026-00065,FOLIO_DUPLICADO,REP-2026-00065,usuario65@banana.local,Plomería,completado,2026-03-10 18:00:00,tecnico1@banana.local
+2233,REP-2026-91001,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+2243,REP-2026-91075,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-02-12 05:00:00,
+2254,REP-2026-90097,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-03-25 12:00:00,
+2279,REP-2026-91010,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+2287,REP-2026-90098,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-05-18 02:00:00,
+2293,REP-2026-00310,FOLIO_DUPLICADO,REP-2026-00310,usuario110@banana.local,Plomería,completado,2026-01-28 06:00:00,tecnico6@banana.local
+2379,REP-2026-05027,FOLIO_DUPLICADO,REP-2026-05027,usuario27@banana.local,Eléctrico,completado,2026-07-23 04:00:00,tecnico3@banana.local
+2442,REP-2026-91011,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+2468,REP-2026-91064,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-09-21 12:00:00,
+2487,REP-2026-04545,FOLIO_DUPLICADO,REP-2026-04545,usuario145@banana.local,Plomería,completado,2026-02-15 21:00:00,tecnico1@banana.local
+2533,REP-2026-90001,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-05-04 03:00:00,
+2610,REP-2026-91034,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+2680,REP-2026-90072,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-06-13 10:00:00,
+2686,REP-2026-04371,FOLIO_DUPLICADO,REP-2026-04371,usuario171@banana.local,Mobiliario,completado,2026-08-23 07:00:00,tecnico3@banana.local
+2740,REP-2026-90066,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-02-13 17:00:00,
+2767,REP-2026-91042,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-07-06 11:00:00,
+2770,REP-2026-90054,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-08-17 17:00:00,
+2813,REP-2026-04568,FOLIO_DUPLICADO,REP-2026-04568,usuario168@banana.local,Pintura,completado,2026-06-05 19:00:00,tecnico8@banana.local
+2818,REP-2026-01813,FOLIO_DUPLICADO,REP-2026-01813,usuario13@banana.local,Seguridad,completado,2026-10-08 15:00:00,tecnico5@banana.local
+2884,REP-2026-91009,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+2903,REP-2026-91056,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-08-31 20:00:00,
+2905,REP-2026-07332,FOLIO_DUPLICADO,REP-2026-07332,usuario132@banana.local,Mobiliario,completado,2026-10-04 05:00:00,tecnico4@banana.local
+2914,REP-2026-90112,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-04-13 21:00:00,
+2937,REP-2026-90092,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-01-14 18:00:00,
+2993,REP-2026-90031,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-08-19 04:00:00,
+3028,REP-2026-91036,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+3049,REP-2026-08089,FOLIO_DUPLICADO,REP-2026-08089,usuario89@banana.local,Pintura,completado,2026-10-30 05:00:00,tecnico1@banana.local
+3068,REP-2026-90088,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-03-22 23:00:00,
+3098,REP-2026-09880,FOLIO_DUPLICADO,REP-2026-09880,usuario80@banana.local,Mobiliario,en_proceso,2026-03-13 04:00:00,tecnico8@banana.local
+3129,REP-2026-05243,FOLIO_DUPLICADO,REP-2026-05243,usuario43@banana.local,Seguridad,completado,2026-10-07 04:00:00,tecnico3@banana.local
+3147,REP-2026-91008,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+3152,REP-2026-04792,FOLIO_DUPLICADO,REP-2026-04792,usuario192@banana.local,Pintura,completado,2026-07-01 11:00:00,tecnico8@banana.local
+3172,REP-2026-91061,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-01-17 09:00:00,
+3181,REP-2026-09180,FOLIO_DUPLICADO,REP-2026-09180,usuario180@banana.local,Mobiliario,completado,2026-07-23 22:00:00,tecnico4@banana.local
+3229,REP-2026-90101,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-05-01 06:00:00,
+3304,REP-2026-90110,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-08-07 07:00:00,
+3310,REP-2026-06492,FOLIO_DUPLICADO,REP-2026-06492,usuario92@banana.local,Mobiliario,completado,2026-07-15 09:00:00,tecnico4@banana.local
+3312,REP-2026-06415,FOLIO_DUPLICADO,REP-2026-06415,usuario15@banana.local,Mobiliario,completado,2026-02-15 01:00:00,tecnico7@banana.local
+3316,REP-2026-90023,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-10-08 14:00:00,
+3358,REP-2026-91014,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+3363,REP-2026-91062,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-01-05 08:00:00,
+3377,REP-2026-90006,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-02-28 23:00:00,
+3419,REP-2026-90027,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-08-31 14:00:00,
+3427,REP-2026-91079,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-10-14 12:00:00,
+3433,REP-2026-91035,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+3452,REP-2026-04438,FOLIO_DUPLICADO,REP-2026-04438,usuario38@banana.local,Seguridad,completado,2026-05-05 02:00:00,tecnico6@banana.local
+3456,REP-2026-90099,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-05-06 05:00:00,
+3520,REP-2026-09355,FOLIO_DUPLICADO,REP-2026-09355,usuario155@banana.local,Mobiliario,completado,2026-04-18 20:00:00,tecnico3@banana.local
+3522,REP-2026-00965,FOLIO_DUPLICADO,REP-2026-00965,usuario165@banana.local,Tecnología,en_proceso,2026-03-04 04:00:00,tecnico5@banana.local
+3541,REP-2026-90075,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-08-04 20:00:00,
+3554,REP-2026-90095,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-10-19 07:00:00,
+3636,REP-2026-90008,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-02-17 13:00:00,
+3688,REP-2026-91069,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-02-14 11:00:00,
+3699,REP-2026-06015,FOLIO_DUPLICADO,REP-2026-06015,usuario15@banana.local,Plomería,completado,2026-03-13 08:00:00,tecnico7@banana.local
+3826,REP-2026-91005,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+3869,REP-2026-90080,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-10-26 15:00:00,
+3872,REP-2026-01051,FOLIO_DUPLICADO,REP-2026-01051,usuario51@banana.local,Eléctrico,completado,2026-03-09 07:00:00,tecnico3@banana.local
+3897,REP-2026-01934,FOLIO_DUPLICADO,REP-2026-01934,usuario134@banana.local,Plomería,completado,2026-03-04 14:00:00,tecnico6@banana.local
+3918,REP-2026-04278,FOLIO_DUPLICADO,REP-2026-04278,usuario78@banana.local,Eléctrico,completado,2026-07-17 11:00:00,tecnico6@banana.local
+3925,REP-2026-04808,FOLIO_DUPLICADO,REP-2026-04808,usuario8@banana.local,Tecnología,en_proceso,2026-03-13 03:00:00,tecnico8@banana.local
+3931,REP-2026-91055,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-06-07 11:00:00,
+3932,REP-2026-04429,FOLIO_DUPLICADO,REP-2026-04429,usuario29@banana.local,Limpieza,completado,2026-04-05 10:00:00,tecnico5@banana.local
+3991,REP-2026-03485,FOLIO_DUPLICADO,REP-2026-03485,usuario85@banana.local,Tecnología,completado,2026-07-19 02:00:00,tecnico5@banana.local
+4029,REP-2026-08245,FOLIO_DUPLICADO,REP-2026-08245,usuario45@banana.local,Tecnología,completado,2026-09-08 11:00:00,tecnico5@banana.local
+4083,REP-2026-91080,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-01-11 09:00:00,
+4097,REP-2026-01094,FOLIO_DUPLICADO,REP-2026-01094,usuario94@banana.local,Plomería,completado,2026-04-16 17:00:00,tecnico6@banana.local
+4109,REP-2026-90108,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-06-17 18:00:00,
+4134,REP-2026-01172,FOLIO_DUPLICADO,REP-2026-01172,usuario172@banana.local,Mobiliario,completado,2026-10-15 07:00:00,tecnico4@banana.local
+4153,REP-2026-08749,FOLIO_DUPLICADO,REP-2026-08749,usuario149@banana.local,Tecnología,completado,2026-10-19 05:00:00,tecnico5@banana.local
+4235,REP-2026-91070,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-07-12 00:00:00,
+4244,REP-2026-90038,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-08-12 23:00:00,
+4269,REP-2026-90020,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-09-30 14:00:00,
+4279,REP-2026-90018,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-08-16 03:00:00,
+4285,REP-2026-91019,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+4293,REP-2026-01020,FOLIO_DUPLICADO,REP-2026-01020,usuario20@banana.local,Limpieza,completado,2026-03-04 10:00:00,tecnico4@banana.local
+4324,REP-2026-01704,FOLIO_DUPLICADO,REP-2026-01704,usuario104@banana.local,Mobiliario,completado,2026-08-13 21:00:00,tecnico8@banana.local
+4334,REP-2026-90063,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-08-20 16:00:00,
+4337,REP-2026-00510,FOLIO_DUPLICADO,REP-2026-00510,usuario110@banana.local,Tecnología,completado,2026-08-22 16:00:00,tecnico6@banana.local
+4383,REP-2026-02004,FOLIO_DUPLICADO,REP-2026-02004,usuario4@banana.local,Plomería,en_proceso,2026-07-26 13:00:00,tecnico4@banana.local
+4487,REP-2026-90036,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-10-22 08:00:00,
+4493,REP-2026-05671,FOLIO_DUPLICADO,REP-2026-05671,usuario71@banana.local,Eléctrico,completado,2026-01-27 21:00:00,tecnico7@banana.local
+4504,REP-2026-00636,FOLIO_DUPLICADO,REP-2026-00636,usuario36@banana.local,Tecnología,completado,2026-07-06 23:00:00,tecnico4@banana.local
+4552,REP-2026-90087,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-06-11 08:00:00,
+4574,REP-2026-90024,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-01-30 21:00:00,
+4621,REP-2026-08172,FOLIO_DUPLICADO,REP-2026-08172,usuario172@banana.local,Mobiliario,completado,2026-10-07 20:00:00,tecnico4@banana.local
+4640,REP-2026-06160,FOLIO_DUPLICADO,REP-2026-06160,usuario160@banana.local,Seguridad,pendiente,2026-10-03 15:00:00,
+4642,REP-2026-91027,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+4672,REP-2026-91050,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-07-17 23:00:00,
+4673,REP-2026-02397,FOLIO_DUPLICADO,REP-2026-02397,usuario197@banana.local,Mobiliario,completado,2026-03-08 03:00:00,tecnico5@banana.local
+4674,REP-2026-90107,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-06-04 11:00:00,
+4677,REP-2026-07926,FOLIO_DUPLICADO,REP-2026-07926,usuario126@banana.local,Plomería,completado,2026-08-22 10:00:00,tecnico6@banana.local
+4681,REP-2026-09695,FOLIO_DUPLICADO,REP-2026-09695,usuario95@banana.local,Seguridad,completado,2026-05-09 04:00:00,tecnico7@banana.local
+4701,REP-2026-07707,FOLIO_DUPLICADO,REP-2026-07707,usuario107@banana.local,Seguridad,completado,2026-05-05 23:00:00,tecnico3@banana.local
+4704,REP-2026-91063,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-07-22 10:00:00,
+4714,REP-2026-09370,FOLIO_DUPLICADO,REP-2026-09370,usuario170@banana.local,Pintura,completado,2026-09-29 14:00:00,tecnico2@banana.local
+4726,REP-2026-04987,FOLIO_DUPLICADO,REP-2026-04987,usuario187@banana.local,Mobiliario,completado,2026-08-03 15:00:00,tecnico3@banana.local
+4768,REP-2026-03148,FOLIO_DUPLICADO,REP-2026-03148,usuario148@banana.local,Limpieza,completado,2026-10-08 04:00:00,tecnico4@banana.local
+4807,REP-2026-90106,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-09-02 09:00:00,
+4814,REP-2026-06930,FOLIO_DUPLICADO,REP-2026-06930,usuario130@banana.local,Seguridad,completado,2026-08-19 14:00:00,tecnico2@banana.local
+4816,REP-2026-91060,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-10-08 23:00:00,
+4825,REP-2026-09557,FOLIO_DUPLICADO,REP-2026-09557,usuario157@banana.local,Plomería,completado,2026-02-27 11:00:00,tecnico5@banana.local
+4849,REP-2026-06850,FOLIO_DUPLICADO,REP-2026-06850,usuario50@banana.local,Pintura,completado,2026-05-03 09:00:00,tecnico2@banana.local
+4858,REP-2026-90019,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-02-10 13:00:00,
+4885,REP-2026-08191,FOLIO_DUPLICADO,REP-2026-08191,usuario191@banana.local,Eléctrico,completado,2026-08-19 07:00:00,tecnico7@banana.local
+4896,REP-2026-00599,FOLIO_DUPLICADO,REP-2026-00599,usuario199@banana.local,Pintura,completado,2026-04-15 00:00:00,tecnico7@banana.local
+4902,REP-2026-09181,FOLIO_DUPLICADO,REP-2026-09181,usuario181@banana.local,Pintura,completado,2026-02-06 21:00:00,tecnico5@banana.local
+4922,REP-2026-00226,FOLIO_DUPLICADO,REP-2026-00226,usuario26@banana.local,Plomería,completado,2026-10-13 01:00:00,tecnico2@banana.local
+4929,REP-2026-04916,FOLIO_DUPLICADO,REP-2026-04916,usuario116@banana.local,Plomería,pendiente,2026-09-10 22:00:00,
+4968,REP-2026-02414,FOLIO_DUPLICADO,REP-2026-02414,usuario14@banana.local,Tecnología,completado,2026-04-18 14:00:00,tecnico6@banana.local
+4975,REP-2026-07645,FOLIO_DUPLICADO,REP-2026-07645,usuario45@banana.local,Eléctrico,completado,2026-01-07 06:00:00,tecnico5@banana.local
+5080,REP-2026-90046,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-08-17 06:00:00,
+5086,REP-2026-09349,FOLIO_DUPLICADO,REP-2026-09349,usuario149@banana.local,Pintura,completado,2026-03-23 18:00:00,tecnico5@banana.local
+5093,REP-2026-03689,FOLIO_DUPLICADO,REP-2026-03689,usuario89@banana.local,Seguridad,completado,2026-04-01 05:00:00,tecnico1@banana.local
+5107,REP-2026-07489,FOLIO_DUPLICADO,REP-2026-07489,usuario89@banana.local,Tecnología,completado,2026-04-29 17:00:00,tecnico1@banana.local
+5110,REP-2026-91015,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+5116,REP-2026-02438,FOLIO_DUPLICADO,REP-2026-02438,usuario38@banana.local,Plomería,completado,2026-05-08 23:00:00,tecnico6@banana.local
+5118,REP-2026-06194,FOLIO_DUPLICADO,REP-2026-06194,usuario194@banana.local,Tecnología,completado,2026-08-10 13:00:00,tecnico2@banana.local
+5137,REP-2026-90061,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-02-19 20:00:00,
+5153,REP-2026-08973,FOLIO_DUPLICADO,REP-2026-08973,usuario173@banana.local,Tecnología,completado,2026-06-24 16:00:00,tecnico5@banana.local
+5208,REP-2026-01491,FOLIO_DUPLICADO,REP-2026-01491,usuario91@banana.local,Seguridad,en_proceso,2026-02-27 21:00:00,tecnico3@banana.local
+5212,REP-2026-90115,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-09-15 05:00:00,
+5223,REP-2026-90022,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-09-13 00:00:00,
+5232,REP-2026-91068,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-10-15 16:00:00,
+5242,REP-2026-90005,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-02-13 03:00:00,
+5247,REP-2026-02942,FOLIO_DUPLICADO,REP-2026-02942,usuario142@banana.local,Plomería,completado,2026-06-27 09:00:00,tecnico6@banana.local
+5249,REP-2026-09690,FOLIO_DUPLICADO,REP-2026-09690,usuario90@banana.local,Plomería,completado,2026-02-15 14:00:00,tecnico2@banana.local
+5270,REP-2026-06837,FOLIO_DUPLICADO,REP-2026-06837,usuario37@banana.local,Limpieza,completado,2026-09-18 07:00:00,tecnico5@banana.local
+5271,REP-2026-90064,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-10-15 12:00:00,
+5275,REP-2026-01558,FOLIO_DUPLICADO,REP-2026-01558,usuario158@banana.local,Pintura,en_proceso,2026-09-08 19:00:00,tecnico6@banana.local
+5313,REP-2026-05069,FOLIO_DUPLICADO,REP-2026-05069,usuario69@banana.local,Eléctrico,completado,2026-03-21 23:00:00,tecnico5@banana.local
+5319,REP-2026-09566,FOLIO_DUPLICADO,REP-2026-09566,usuario166@banana.local,Pintura,completado,2026-09-04 12:00:00,tecnico6@banana.local
+5407,REP-2026-91049,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-07-07 08:00:00,
+5448,REP-2026-90081,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-01-12 00:00:00,
+5464,REP-2026-90102,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-04-28 00:00:00,
+5470,REP-2026-01876,FOLIO_DUPLICADO,REP-2026-01876,usuario76@banana.local,Seguridad,completado,2026-03-03 21:00:00,tecnico4@banana.local
+5524,REP-2026-91026,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+5541,REP-2026-09280,FOLIO_DUPLICADO,REP-2026-09280,usuario80@banana.local,Limpieza,en_proceso,2026-10-12 14:00:00,tecnico8@banana.local
+5547,REP-2026-90056,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-10-09 17:00:00,
+5562,REP-2026-00184,FOLIO_DUPLICADO,REP-2026-00184,usuario184@banana.local,Plomería,completado,2026-07-02 06:00:00,tecnico8@banana.local
+5589,REP-2026-00604,FOLIO_DUPLICADO,REP-2026-00604,usuario4@banana.local,Plomería,completado,2026-08-26 00:00:00,tecnico4@banana.local
+5590,REP-2026-00031,FOLIO_DUPLICADO,REP-2026-00031,usuario31@banana.local,Mobiliario,completado,2026-04-27 11:00:00,tecnico7@banana.local
+5656,REP-2026-02958,FOLIO_DUPLICADO,REP-2026-02958,usuario158@banana.local,Pintura,completado,2026-10-18 01:00:00,tecnico6@banana.local
+5697,REP-2026-01035,FOLIO_DUPLICADO,REP-2026-01035,usuario35@banana.local,Tecnología,completado,2026-04-22 15:00:00,tecnico3@banana.local
+5698,REP-2026-91058,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-06-02 04:00:00,
+5771,REP-2026-90045,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-01-16 14:00:00,
+5782,REP-2026-90021,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-05-11 17:00:00,
+5787,REP-2026-91059,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-08-18 07:00:00,
+5851,REP-2026-03900,FOLIO_DUPLICADO,REP-2026-03900,usuario100@banana.local,Eléctrico,completado,2026-06-07 19:00:00,tecnico4@banana.local
+5867,REP-2026-04521,FOLIO_DUPLICADO,REP-2026-04521,usuario121@banana.local,Tecnología,completado,2026-01-13 16:00:00,tecnico1@banana.local
+5953,REP-2026-03375,FOLIO_DUPLICADO,REP-2026-03375,usuario175@banana.local,Eléctrico,pendiente,2026-10-06 16:00:00,
+5955,REP-2026-90067,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-06-14 07:00:00,
+5972,REP-2026-90119,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-04-22 14:00:00,
+5973,REP-2026-91021,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+5979,REP-2026-91018,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+5998,REP-2026-90051,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-01-17 10:00:00,
+6014,REP-2026-01089,FOLIO_DUPLICADO,REP-2026-01089,usuario89@banana.local,Pintura,pendiente,2026-02-25 20:00:00,
+6025,REP-2026-05469,FOLIO_DUPLICADO,REP-2026-05469,usuario69@banana.local,Plomería,completado,2026-02-10 05:00:00,tecnico5@banana.local
+6051,REP-2026-00829,FOLIO_DUPLICADO,REP-2026-00829,usuario29@banana.local,Mobiliario,pendiente,2026-09-30 13:00:00,
+6053,REP-2026-07283,FOLIO_DUPLICADO,REP-2026-07283,usuario83@banana.local,Mobiliario,en_proceso,2026-08-07 18:00:00,tecnico3@banana.local
+6061,REP-2026-03654,FOLIO_DUPLICADO,REP-2026-03654,usuario54@banana.local,Seguridad,completado,2026-08-27 07:00:00,tecnico6@banana.local
+6062,REP-2026-91074,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-05-15 14:00:00,
+6088,REP-2026-91046,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-08-20 11:00:00,
+6131,REP-2026-02904,FOLIO_DUPLICADO,REP-2026-02904,usuario104@banana.local,Tecnología,completado,2026-01-31 08:00:00,tecnico8@banana.local
+6164,REP-2026-03179,FOLIO_DUPLICADO,REP-2026-03179,usuario179@banana.local,Eléctrico,completado,2026-10-04 23:00:00,tecnico3@banana.local
+6187,REP-2026-90073,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-09-28 06:00:00,
+6196,REP-2026-02190,FOLIO_DUPLICADO,REP-2026-02190,usuario190@banana.local,Tecnología,en_proceso,2026-07-29 16:00:00,tecnico6@banana.local
+6222,REP-2026-02877,FOLIO_DUPLICADO,REP-2026-02877,usuario77@banana.local,Seguridad,completado,2026-03-15 17:00:00,tecnico5@banana.local
+6226,REP-2026-07519,FOLIO_DUPLICADO,REP-2026-07519,usuario119@banana.local,Eléctrico,completado,2026-06-08 03:00:00,tecnico7@banana.local
+6227,REP-2026-04795,FOLIO_DUPLICADO,REP-2026-04795,usuario195@banana.local,Seguridad,en_proceso,2026-10-25 16:00:00,tecnico3@banana.local
+6253,REP-2026-02523,FOLIO_DUPLICADO,REP-2026-02523,usuario123@banana.local,Mobiliario,en_proceso,2026-03-27 08:00:00,tecnico3@banana.local
+6269,REP-2026-91045,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-06-14 14:00:00,
+6281,REP-2026-90034,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-04-23 01:00:00,
+6314,REP-2026-08409,FOLIO_DUPLICADO,REP-2026-08409,usuario9@banana.local,Plomería,completado,2026-10-25 14:00:00,tecnico1@banana.local
+6382,REP-2026-91031,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+6383,REP-2026-90013,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-01-11 17:00:00,
+6457,REP-2026-05661,FOLIO_DUPLICADO,REP-2026-05661,usuario61@banana.local,Limpieza,completado,2026-10-10 18:00:00,tecnico5@banana.local
+6463,REP-2026-04095,FOLIO_DUPLICADO,REP-2026-04095,usuario95@banana.local,Seguridad,en_proceso,2026-03-14 15:00:00,tecnico7@banana.local
+6470,REP-2026-07579,FOLIO_DUPLICADO,REP-2026-07579,usuario179@banana.local,Limpieza,completado,2026-10-23 09:00:00,tecnico3@banana.local
+6476,REP-2026-90100,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-10-19 22:00:00,
+6524,REP-2026-06608,FOLIO_DUPLICADO,REP-2026-06608,usuario8@banana.local,Seguridad,completado,2026-07-22 20:00:00,tecnico8@banana.local
+6532,REP-2026-06088,FOLIO_DUPLICADO,REP-2026-06088,usuario88@banana.local,Limpieza,completado,2026-04-28 19:00:00,tecnico8@banana.local
+6572,REP-2026-09757,FOLIO_DUPLICADO,REP-2026-09757,usuario157@banana.local,Tecnología,pendiente,2026-10-02 08:00:00,
+6591,REP-2026-02003,FOLIO_DUPLICADO,REP-2026-02003,usuario3@banana.local,Eléctrico,completado,2026-04-13 07:00:00,tecnico3@banana.local
+6617,REP-2026-03489,FOLIO_DUPLICADO,REP-2026-03489,usuario89@banana.local,Mobiliario,completado,2026-08-05 11:00:00,tecnico1@banana.local
+6632,REP-2026-04786,FOLIO_DUPLICADO,REP-2026-04786,usuario186@banana.local,Limpieza,completado,2026-06-21 21:00:00,tecnico2@banana.local
+6646,REP-2026-90028,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-04-26 06:00:00,
+6651,REP-2026-90011,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-07-08 21:00:00,
+6656,REP-2026-01115,FOLIO_DUPLICADO,REP-2026-01115,usuario115@banana.local,Plomería,completado,2026-06-13 20:00:00,tecnico3@banana.local
+6658,REP-2026-90053,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-08-29 10:00:00,
+6679,REP-2026-90035,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-02-05 00:00:00,
+6703,REP-2026-02035,FOLIO_DUPLICADO,REP-2026-02035,usuario35@banana.local,Limpieza,completado,2026-08-21 09:00:00,tecnico3@banana.local
+6733,REP-2026-90109,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-09-15 05:00:00,
+6750,REP-2026-01598,FOLIO_DUPLICADO,REP-2026-01598,usuario198@banana.local,Plomería,completado,2026-05-08 15:00:00,tecnico6@banana.local
+6765,REP-2026-06664,FOLIO_DUPLICADO,REP-2026-06664,usuario64@banana.local,Seguridad,completado,2026-08-31 04:00:00,tecnico8@banana.local
+6782,REP-2026-09647,FOLIO_DUPLICADO,REP-2026-09647,usuario47@banana.local,Eléctrico,completado,2026-08-15 06:00:00,tecnico7@banana.local
+6783,REP-2026-02441,FOLIO_DUPLICADO,REP-2026-02441,usuario41@banana.local,Limpieza,completado,2026-08-07 07:00:00,tecnico1@banana.local
+6831,REP-2026-02058,FOLIO_DUPLICADO,REP-2026-02058,usuario58@banana.local,Seguridad,completado,2026-07-23 16:00:00,tecnico2@banana.local
+6832,REP-2026-04490,FOLIO_DUPLICADO,REP-2026-04490,usuario90@banana.local,Mobiliario,completado,2026-01-13 18:00:00,tecnico2@banana.local
+6847,REP-2026-06531,FOLIO_DUPLICADO,REP-2026-06531,usuario131@banana.local,Seguridad,completado,2026-09-08 10:00:00,tecnico3@banana.local
+6850,REP-2026-02346,FOLIO_DUPLICADO,REP-2026-02346,usuario146@banana.local,Eléctrico,completado,2026-03-16 01:00:00,tecnico2@banana.local
+6852,REP-2026-02449,FOLIO_DUPLICADO,REP-2026-02449,usuario49@banana.local,Tecnología,completado,2026-08-23 18:00:00,tecnico1@banana.local
+6853,REP-2026-03188,FOLIO_DUPLICADO,REP-2026-03188,usuario188@banana.local,Mobiliario,completado,2026-03-01 08:00:00,tecnico4@banana.local
+6872,REP-2026-02491,FOLIO_DUPLICADO,REP-2026-02491,usuario91@banana.local,Tecnología,completado,2026-09-24 05:00:00,tecnico3@banana.local
+6883,REP-2026-02921,FOLIO_DUPLICADO,REP-2026-02921,usuario121@banana.local,Plomería,completado,2026-10-25 21:00:00,tecnico1@banana.local
+6885,REP-2026-03909,FOLIO_DUPLICADO,REP-2026-03909,usuario109@banana.local,Mobiliario,completado,2026-04-09 04:00:00,tecnico5@banana.local
+6886,REP-2026-90033,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-06-20 02:00:00,
+6887,REP-2026-01756,FOLIO_DUPLICADO,REP-2026-01756,usuario156@banana.local,Tecnología,completado,2026-08-10 21:00:00,tecnico4@banana.local
+6921,REP-2026-04844,FOLIO_DUPLICADO,REP-2026-04844,usuario44@banana.local,Seguridad,completado,2026-05-22 23:00:00,tecnico4@banana.local
+6942,REP-2026-09405,FOLIO_DUPLICADO,REP-2026-09405,usuario5@banana.local,Pintura,completado,2026-01-29 21:00:00,tecnico5@banana.local
+6968,REP-2026-90111,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-10-23 07:00:00,
+6987,REP-2026-02165,FOLIO_DUPLICADO,REP-2026-02165,usuario165@banana.local,Plomería,completado,2026-03-26 00:00:00,tecnico5@banana.local
+6992,REP-2026-06695,FOLIO_DUPLICADO,REP-2026-06695,usuario95@banana.local,Mobiliario,completado,2026-03-03 12:00:00,tecnico7@banana.local
+7017,REP-2026-00527,FOLIO_DUPLICADO,REP-2026-00527,usuario127@banana.local,Plomería,completado,2026-05-12 14:00:00,tecnico7@banana.local
+7047,REP-2026-02255,FOLIO_DUPLICADO,REP-2026-02255,usuario55@banana.local,Eléctrico,completado,2026-08-08 12:00:00,tecnico7@banana.local
+7057,REP-2026-01153,FOLIO_DUPLICADO,REP-2026-01153,usuario153@banana.local,Limpieza,completado,2026-08-14 06:00:00,tecnico1@banana.local
+7059,REP-2026-90104,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-07-02 04:00:00,
+7068,REP-2026-06396,FOLIO_DUPLICADO,REP-2026-06396,usuario196@banana.local,Limpieza,completado,2026-07-26 21:00:00,tecnico4@banana.local
+7097,REP-2026-07101,FOLIO_DUPLICADO,REP-2026-07101,usuario101@banana.local,Mobiliario,completado,2026-04-13 11:00:00,tecnico5@banana.local
+7125,REP-2026-90082,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-02-27 20:00:00,
+7128,REP-2026-90113,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-10-25 16:00:00,
+7139,REP-2026-91067,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-04-12 08:00:00,
+7143,REP-2026-90047,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-01-17 19:00:00,
+7229,REP-2026-08500,FOLIO_DUPLICADO,REP-2026-08500,usuario100@banana.local,Plomería,completado,2026-06-02 20:00:00,tecnico4@banana.local
+7275,REP-2026-08193,FOLIO_DUPLICADO,REP-2026-08193,usuario193@banana.local,Mobiliario,completado,2026-01-13 00:00:00,tecnico1@banana.local
+7279,REP-2026-91043,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-10-21 12:00:00,
+7292,REP-2026-07214,FOLIO_DUPLICADO,REP-2026-07214,usuario14@banana.local,Pintura,completado,2026-07-12 13:00:00,tecnico6@banana.local
+7349,REP-2026-90025,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-03-05 01:00:00,
+7410,REP-2026-90016,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-04-02 17:00:00,
+7433,REP-2026-05923,FOLIO_DUPLICADO,REP-2026-05923,usuario123@banana.local,Eléctrico,completado,2026-01-27 05:00:00,tecnico3@banana.local
+7441,REP-2026-90094,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-01-12 23:00:00,
+7457,REP-2026-90117,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-01-14 19:00:00,
+7468,REP-2026-90041,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-07-01 13:00:00,
+7476,REP-2026-90002,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-02-10 09:00:00,
+7543,REP-2026-00033,FOLIO_DUPLICADO,REP-2026-00033,usuario33@banana.local,Limpieza,completado,2026-04-19 17:00:00,tecnico1@banana.local
+7564,REP-2026-08283,FOLIO_DUPLICADO,REP-2026-08283,usuario83@banana.local,Plomería,completado,2026-05-22 00:00:00,tecnico3@banana.local
+7582,REP-2026-03231,FOLIO_DUPLICADO,REP-2026-03231,usuario31@banana.local,Pintura,completado,2026-03-29 02:00:00,tecnico7@banana.local
+7650,REP-2026-09523,FOLIO_DUPLICADO,REP-2026-09523,usuario123@banana.local,Mobiliario,completado,2026-06-26 16:00:00,tecnico3@banana.local
+7667,REP-2026-90055,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-10-12 02:00:00,
+7687,REP-2026-90060,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-04-10 03:00:00,
+7728,REP-2026-00909,FOLIO_DUPLICADO,REP-2026-00909,usuario109@banana.local,Tecnología,en_proceso,2026-01-06 10:00:00,tecnico5@banana.local
+7738,REP-2026-91071,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-05-29 13:00:00,
+7753,REP-2026-02056,FOLIO_DUPLICADO,REP-2026-02056,usuario56@banana.local,Limpieza,completado,2026-03-02 11:00:00,tecnico8@banana.local
+7754,REP-2026-09549,FOLIO_DUPLICADO,REP-2026-09549,usuario149@banana.local,Eléctrico,completado,2026-07-05 12:00:00,tecnico5@banana.local
+7766,REP-2026-01499,FOLIO_DUPLICADO,REP-2026-01499,usuario99@banana.local,Eléctrico,en_proceso,2026-02-24 21:00:00,tecnico3@banana.local
+7786,REP-2026-91022,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+7794,REP-2026-91006,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+7807,REP-2026-09974,FOLIO_DUPLICADO,REP-2026-09974,usuario174@banana.local,Tecnología,completado,2026-09-30 22:00:00,tecnico6@banana.local
+7808,REP-2026-91052,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-09-20 06:00:00,
+7817,REP-2026-90039,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-10-13 06:00:00,
+7831,REP-2026-02256,FOLIO_DUPLICADO,REP-2026-02256,usuario56@banana.local,Plomería,completado,2026-10-23 02:00:00,tecnico8@banana.local
+7878,REP-2026-01326,FOLIO_DUPLICADO,REP-2026-01326,usuario126@banana.local,Mobiliario,completado,2026-01-21 21:00:00,tecnico6@banana.local
+7909,REP-2026-91020,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+7947,REP-2026-06691,FOLIO_DUPLICADO,REP-2026-06691,usuario91@banana.local,Tecnología,completado,2026-02-23 05:00:00,tecnico3@banana.local
+7967,REP-2026-04035,FOLIO_DUPLICADO,REP-2026-04035,usuario35@banana.local,Mobiliario,completado,2026-08-02 00:00:00,tecnico3@banana.local
+7977,REP-2026-01894,FOLIO_DUPLICADO,REP-2026-01894,usuario94@banana.local,Pintura,en_proceso,2026-05-17 15:00:00,tecnico6@banana.local
+8006,REP-2026-91003,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+8053,REP-2026-08167,FOLIO_DUPLICADO,REP-2026-08167,usuario167@banana.local,Limpieza,completado,2026-02-12 20:00:00,tecnico7@banana.local
+8057,REP-2026-00629,FOLIO_DUPLICADO,REP-2026-00629,usuario29@banana.local,Tecnología,en_proceso,2026-06-08 01:00:00,tecnico5@banana.local
+8063,REP-2026-02075,FOLIO_DUPLICADO,REP-2026-02075,usuario75@banana.local,Mobiliario,completado,2026-10-26 19:00:00,tecnico3@banana.local
+8096,REP-2026-91078,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-04-14 22:00:00,
+8106,REP-2026-91025,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+8114,REP-2026-90015,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-09-19 15:00:00,
+8118,REP-2026-09318,FOLIO_DUPLICADO,REP-2026-09318,usuario118@banana.local,Eléctrico,completado,2026-01-20 14:00:00,tecnico6@banana.local
+8146,REP-2026-07427,FOLIO_DUPLICADO,REP-2026-07427,usuario27@banana.local,Seguridad,completado,2026-09-16 18:00:00,tecnico3@banana.local
+8183,REP-2026-91004,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+8198,REP-2026-90085,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-09-12 11:00:00,
+8201,REP-2026-04105,FOLIO_DUPLICADO,REP-2026-04105,usuario105@banana.local,Mobiliario,completado,2026-07-03 06:00:00,tecnico1@banana.local
+8205,REP-2026-06917,FOLIO_DUPLICADO,REP-2026-06917,usuario117@banana.local,Eléctrico,completado,2026-06-15 17:00:00,tecnico5@banana.local
+8247,REP-2026-91076,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-03-30 02:00:00,
+8272,REP-2026-91053,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-07-30 09:00:00,
+8273,REP-2026-04323,FOLIO_DUPLICADO,REP-2026-04323,usuario123@banana.local,Pintura,completado,2026-04-24 23:00:00,tecnico3@banana.local
+8282,REP-2026-91029,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+8283,REP-2026-91002,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+8305,REP-2026-91039,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+8329,REP-2026-07766,FOLIO_DUPLICADO,REP-2026-07766,usuario166@banana.local,Mobiliario,completado,2026-03-18 06:00:00,tecnico6@banana.local
+8361,REP-2026-01169,FOLIO_DUPLICADO,REP-2026-01169,usuario169@banana.local,Seguridad,completado,2026-08-16 15:00:00,tecnico1@banana.local
+8374,REP-2026-00500,FOLIO_DUPLICADO,REP-2026-00500,usuario100@banana.local,Mobiliario,completado,2026-01-18 21:00:00,tecnico4@banana.local
+8396,REP-2026-03265,FOLIO_DUPLICADO,REP-2026-03265,usuario65@banana.local,Mobiliario,completado,2026-05-06 07:00:00,tecnico1@banana.local
+8399,REP-2026-90084,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-02-25 03:00:00,
+8414,REP-2026-08875,FOLIO_DUPLICADO,REP-2026-08875,usuario75@banana.local,Tecnología,completado,2026-05-31 11:00:00,tecnico3@banana.local
+8430,REP-2026-04061,FOLIO_DUPLICADO,REP-2026-04061,usuario61@banana.local,Eléctrico,completado,2026-05-21 15:00:00,tecnico5@banana.local
+8434,REP-2026-09083,FOLIO_DUPLICADO,REP-2026-09083,usuario83@banana.local,Pintura,completado,2026-06-17 01:00:00,tecnico3@banana.local
+8446,REP-2026-02858,FOLIO_DUPLICADO,REP-2026-02858,usuario58@banana.local,Plomería,completado,2026-10-01 20:00:00,tecnico2@banana.local
+8467,REP-2026-03109,FOLIO_DUPLICADO,REP-2026-03109,usuario109@banana.local,Eléctrico,completado,2026-02-04 02:00:00,tecnico5@banana.local
+8476,REP-2026-01363,FOLIO_DUPLICADO,REP-2026-01363,usuario163@banana.local,Limpieza,completado,2026-01-05 10:00:00,tecnico3@banana.local
+8497,REP-2026-90091,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-08-28 08:00:00,
+8498,REP-2026-90120,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-04-29 12:00:00,
+8518,REP-2026-07503,FOLIO_DUPLICADO,REP-2026-07503,usuario103@banana.local,Tecnología,completado,2026-03-26 00:00:00,tecnico7@banana.local
+8521,REP-2026-07829,FOLIO_DUPLICADO,REP-2026-07829,usuario29@banana.local,Mobiliario,completado,2026-01-30 22:00:00,tecnico5@banana.local
+8538,REP-2026-90077,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-06-30 11:00:00,
+8565,REP-2026-91077,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-01-24 18:00:00,
+8585,REP-2026-01496,FOLIO_DUPLICADO,REP-2026-01496,usuario96@banana.local,Limpieza,completado,2026-05-16 16:00:00,tecnico8@banana.local
+8602,REP-2026-90030,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-03-20 16:00:00,
+8616,REP-2026-90026,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-04-02 22:00:00,
+8638,REP-2026-03747,FOLIO_DUPLICADO,REP-2026-03747,usuario147@banana.local,Plomería,completado,2026-07-10 14:00:00,tecnico3@banana.local
+8645,REP-2026-08778,FOLIO_DUPLICADO,REP-2026-08778,usuario178@banana.local,Seguridad,completado,2026-07-23 17:00:00,tecnico2@banana.local
+8646,REP-2026-90048,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-03-23 09:00:00,
+8654,REP-2026-01905,FOLIO_DUPLICADO,REP-2026-01905,usuario105@banana.local,Eléctrico,completado,2026-03-29 04:00:00,tecnico1@banana.local
+8711,REP-2026-06343,FOLIO_DUPLICADO,REP-2026-06343,usuario143@banana.local,Eléctrico,completado,2026-07-18 18:00:00,tecnico7@banana.local
+8713,REP-2026-04701,FOLIO_DUPLICADO,REP-2026-04701,usuario101@banana.local,Pintura,completado,2026-06-24 18:00:00,tecnico5@banana.local
+8729,REP-2026-05465,FOLIO_DUPLICADO,REP-2026-05465,usuario65@banana.local,Limpieza,completado,2026-10-15 12:00:00,tecnico1@banana.local
+8741,REP-2026-05854,FOLIO_DUPLICADO,REP-2026-05854,usuario54@banana.local,Plomería,en_proceso,2026-04-21 15:00:00,tecnico6@banana.local
+8748,REP-2026-90017,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-07-27 11:00:00,
+8749,REP-2026-02757,FOLIO_DUPLICADO,REP-2026-02757,usuario157@banana.local,Tecnología,completado,2026-06-30 01:00:00,tecnico5@banana.local
+8751,REP-2026-00153,FOLIO_DUPLICADO,REP-2026-00153,usuario153@banana.local,Tecnología,completado,2026-09-28 03:00:00,tecnico1@banana.local
+8760,REP-2026-02760,FOLIO_DUPLICADO,REP-2026-02760,usuario160@banana.local,Plomería,completado,2026-02-23 08:00:00,tecnico8@banana.local
+8768,REP-2026-04339,FOLIO_DUPLICADO,REP-2026-04339,usuario139@banana.local,Tecnología,pendiente,2026-06-08 19:00:00,
+8779,REP-2026-90010,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-07-13 20:00:00,
+8780,REP-2026-08129,FOLIO_DUPLICADO,REP-2026-08129,usuario129@banana.local,Plomería,completado,2026-05-01 13:00:00,tecnico1@banana.local
+8784,REP-2026-90071,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-10-14 09:00:00,
+8785,REP-2026-05940,FOLIO_DUPLICADO,REP-2026-05940,usuario140@banana.local,Pintura,en_proceso,2026-04-17 05:00:00,tecnico4@banana.local
+8802,REP-2026-06841,FOLIO_DUPLICADO,REP-2026-06841,usuario41@banana.local,Plomería,completado,2026-09-14 20:00:00,tecnico1@banana.local
+8805,REP-2026-09342,FOLIO_DUPLICADO,REP-2026-09342,usuario142@banana.local,Pintura,completado,2026-05-15 15:00:00,tecnico6@banana.local
+8815,REP-2026-91073,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-08-12 15:00:00,
+8834,REP-2026-06359,FOLIO_DUPLICADO,REP-2026-06359,usuario159@banana.local,Mobiliario,completado,2026-03-19 21:00:00,tecnico7@banana.local
+8854,REP-2026-00875,FOLIO_DUPLICADO,REP-2026-00875,usuario75@banana.local,Seguridad,completado,2026-01-14 01:00:00,tecnico3@banana.local
+8866,REP-2026-90040,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-03-22 04:00:00,
+8885,REP-2026-05429,FOLIO_DUPLICADO,REP-2026-05429,usuario29@banana.local,Pintura,completado,2026-02-16 15:00:00,tecnico5@banana.local
+8914,REP-2026-90012,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-02-15 23:00:00,
+8921,REP-2026-90074,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-08-12 18:00:00,
+8923,REP-2026-02252,FOLIO_DUPLICADO,REP-2026-02252,usuario52@banana.local,Limpieza,en_proceso,2026-03-27 23:00:00,tecnico4@banana.local
+8930,REP-2026-90029,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-06-01 07:00:00,
+8959,REP-2026-07239,FOLIO_DUPLICADO,REP-2026-07239,usuario39@banana.local,Eléctrico,completado,2026-08-27 21:00:00,tecnico7@banana.local
+8970,REP-2026-90093,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-01-18 14:00:00,
+8983,REP-2026-03668,FOLIO_DUPLICADO,REP-2026-03668,usuario68@banana.local,Seguridad,completado,2026-06-11 09:00:00,tecnico4@banana.local
+8991,REP-2026-08441,FOLIO_DUPLICADO,REP-2026-08441,usuario41@banana.local,Tecnología,completado,2026-10-23 19:00:00,tecnico1@banana.local
+8998,REP-2026-05816,FOLIO_DUPLICADO,REP-2026-05816,usuario16@banana.local,Tecnología,completado,2026-02-20 09:00:00,tecnico8@banana.local
+9002,REP-2026-05774,FOLIO_DUPLICADO,REP-2026-05774,usuario174@banana.local,Tecnología,completado,2026-06-21 07:00:00,tecnico6@banana.local
+9003,REP-2026-90052,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-08-29 23:00:00,
+9007,REP-2026-07093,FOLIO_DUPLICADO,REP-2026-07093,usuario93@banana.local,Plomería,completado,2026-10-09 00:00:00,tecnico5@banana.local
+9067,REP-2026-91051,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-01-20 03:00:00,
+9075,REP-2026-04821,FOLIO_DUPLICADO,REP-2026-04821,usuario21@banana.local,Limpieza,completado,2026-06-20 01:00:00,tecnico5@banana.local
+9121,REP-2026-90044,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-01-12 11:00:00,
+9133,REP-2026-90050,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-01-19 02:00:00,
+9150,REP-2026-00901,FOLIO_DUPLICADO,REP-2026-00901,usuario101@banana.local,Limpieza,completado,2026-06-17 16:00:00,tecnico5@banana.local
+9155,REP-2026-00858,FOLIO_DUPLICADO,REP-2026-00858,usuario58@banana.local,Pintura,completado,2026-07-02 03:00:00,tecnico2@banana.local
+9250,REP-2026-08464,FOLIO_DUPLICADO,REP-2026-08464,usuario64@banana.local,Eléctrico,completado,2026-01-18 17:00:00,tecnico8@banana.local
+9274,REP-2026-04993,FOLIO_DUPLICADO,REP-2026-04993,usuario193@banana.local,Plomería,completado,2026-09-01 11:00:00,tecnico1@banana.local
+9276,REP-2026-08582,FOLIO_DUPLICADO,REP-2026-08582,usuario182@banana.local,Seguridad,pendiente,2026-02-15 15:00:00,
+9285,REP-2026-00143,FOLIO_DUPLICADO,REP-2026-00143,usuario143@banana.local,Mobiliario,completado,2026-05-23 07:00:00,tecnico7@banana.local
+9293,REP-2026-90086,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-01-23 08:00:00,
+9346,REP-2026-07111,FOLIO_DUPLICADO,REP-2026-07111,usuario111@banana.local,Tecnología,completado,2026-09-18 16:00:00,tecnico7@banana.local
+9352,REP-2026-02203,FOLIO_DUPLICADO,REP-2026-02203,usuario3@banana.local,Limpieza,completado,2026-06-02 22:00:00,tecnico3@banana.local
+9355,REP-2026-07339,FOLIO_DUPLICADO,REP-2026-07339,usuario139@banana.local,Mobiliario,completado,2026-03-28 21:00:00,tecnico3@banana.local
+9356,REP-2026-02600,FOLIO_DUPLICADO,REP-2026-02600,usuario200@banana.local,Mobiliario,completado,2026-06-22 15:00:00,tecnico8@banana.local
+9361,REP-2026-03873,FOLIO_DUPLICADO,REP-2026-03873,usuario73@banana.local,Plomería,completado,2026-08-29 23:00:00,tecnico1@banana.local
+9387,REP-2026-07195,FOLIO_DUPLICADO,REP-2026-07195,usuario195@banana.local,Tecnología,completado,2026-02-03 14:00:00,tecnico3@banana.local
+9394,REP-2026-91033,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+9396,REP-2026-01105,FOLIO_DUPLICADO,REP-2026-01105,usuario105@banana.local,Tecnología,completado,2026-01-23 06:00:00,tecnico1@banana.local
+9397,REP-2026-09220,FOLIO_DUPLICADO,REP-2026-09220,usuario20@banana.local,Eléctrico,completado,2026-01-23 23:00:00,tecnico4@banana.local
+9437,REP-2026-90057,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-10-07 16:00:00,
+9439,REP-2026-01528,FOLIO_DUPLICADO,REP-2026-01528,usuario128@banana.local,Plomería,completado,2026-06-14 12:00:00,tecnico8@banana.local
+9451,REP-2026-05859,FOLIO_DUPLICADO,REP-2026-05859,usuario59@banana.local,Seguridad,completado,2026-05-16 02:00:00,tecnico3@banana.local
+9453,REP-2026-90069,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-05-24 02:00:00,
+9455,REP-2026-05472,FOLIO_DUPLICADO,REP-2026-05472,usuario72@banana.local,Limpieza,pendiente,2026-09-24 13:00:00,
+9482,REP-2026-08695,FOLIO_DUPLICADO,REP-2026-08695,usuario95@banana.local,Eléctrico,completado,2026-06-13 15:00:00,tecnico7@banana.local
+9502,REP-2026-02531,FOLIO_DUPLICADO,REP-2026-02531,usuario131@banana.local,Pintura,completado,2026-06-18 16:00:00,tecnico3@banana.local
+9524,REP-2026-90032,CAMPO_OBLIGATORIO_FALTANTE,ubicacion,usuario1@banana.local,Eléctrico,pendiente,2026-10-07 22:00:00,
+9552,REP-2026-05771,FOLIO_DUPLICADO,REP-2026-05771,usuario171@banana.local,Mobiliario,completado,2026-07-03 03:00:00,tecnico3@banana.local
+9575,REP-2026-90043,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-02-05 16:00:00,
+9579,REP-2026-04862,FOLIO_DUPLICADO,REP-2026-04862,usuario62@banana.local,Pintura,completado,2026-02-22 15:00:00,tecnico6@banana.local
+9594,REP-2026-91030,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+9596,REP-2026-03495,FOLIO_DUPLICADO,REP-2026-03495,usuario95@banana.local,Plomería,completado,2026-06-01 17:00:00,tecnico7@banana.local
+9647,REP-2026-06258,FOLIO_DUPLICADO,REP-2026-06258,usuario58@banana.local,Seguridad,completado,2026-02-27 07:00:00,tecnico2@banana.local
+9673,REP-2026-00001,FOLIO_DUPLICADO,REP-2026-00001,usuario1@banana.local,Eléctrico,completado,2026-09-26 15:00:00,tecnico1@banana.local
+9693,REP-2026-07715,FOLIO_DUPLICADO,REP-2026-07715,usuario115@banana.local,Eléctrico,completado,2026-08-03 11:00:00,tecnico3@banana.local
+9741,REP-2026-01337,FOLIO_DUPLICADO,REP-2026-01337,usuario137@banana.local,Seguridad,completado,2026-05-12 07:00:00,tecnico1@banana.local
+9752,REP-2026-03099,FOLIO_DUPLICADO,REP-2026-03099,usuario99@banana.local,Limpieza,en_proceso,2026-04-21 22:00:00,tecnico3@banana.local
+9765,REP-2026-08738,FOLIO_DUPLICADO,REP-2026-08738,usuario138@banana.local,Plomería,completado,2026-07-26 15:00:00,tecnico2@banana.local
+9775,REP-2026-04583,FOLIO_DUPLICADO,REP-2026-04583,usuario183@banana.local,Limpieza,completado,2026-09-18 06:00:00,tecnico7@banana.local
+9784,REP-2026-05252,FOLIO_DUPLICADO,REP-2026-05252,usuario52@banana.local,Plomería,completado,2026-08-25 11:00:00,tecnico4@banana.local
+9787,REP-2026-08658,FOLIO_DUPLICADO,REP-2026-08658,usuario58@banana.local,Tecnología,completado,2026-08-15 10:00:00,tecnico2@banana.local
+9893,REP-2026-04718,FOLIO_DUPLICADO,REP-2026-04718,usuario118@banana.local,Seguridad,en_proceso,2026-08-30 09:00:00,tecnico6@banana.local
+9935,REP-2026-91040,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+9961,REP-2026-09343,FOLIO_DUPLICADO,REP-2026-09343,usuario143@banana.local,Limpieza,completado,2026-10-06 20:00:00,tecnico7@banana.local
+9965,REP-2026-06589,FOLIO_DUPLICADO,REP-2026-06589,usuario189@banana.local,Plomería,completado,2026-02-06 14:00:00,tecnico5@banana.local
+9967,REP-2026-01854,FOLIO_DUPLICADO,REP-2026-01854,usuario54@banana.local,Tecnología,completado,2026-04-26 05:00:00,tecnico6@banana.local
+9976,REP-2026-90007,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-10-25 19:00:00,
+10017,REP-2026-00532,FOLIO_DUPLICADO,REP-2026-00532,usuario132@banana.local,Seguridad,completado,2026-04-23 19:00:00,tecnico4@banana.local
+10084,REP-2026-04128,FOLIO_DUPLICADO,REP-2026-04128,usuario128@banana.local,Limpieza,completado,2026-04-11 21:00:00,tecnico8@banana.local
+10121,REP-2026-06364,FOLIO_DUPLICADO,REP-2026-06364,usuario164@banana.local,Eléctrico,completado,2026-02-12 10:00:00,tecnico4@banana.local
+10158,REP-2026-90009,CAMPO_OBLIGATORIO_FALTANTE,correo_usuario,,Eléctrico,pendiente,2026-09-27 17:00:00,
+10171,REP-2026-04739,FOLIO_DUPLICADO,REP-2026-04739,usuario139@banana.local,Seguridad,completado,2026-10-17 14:00:00,tecnico3@banana.local
+10216,REP-2026-91016,FECHA_INVALIDA,creado_en: 31/02/2026,usuario1@banana.local,Eléctrico,pendiente,31/02/2026,
+10238,REP-2026-90079,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-01-16 09:00:00,
+10241,REP-2026-91065,TIPO_INVALIDO,Estado inválido: abierto,usuario1@banana.local,Eléctrico,abierto,2026-02-15 19:00:00,
+10249,REP-2026-03830,FOLIO_DUPLICADO,REP-2026-03830,usuario30@banana.local,Eléctrico,completado,2026-08-09 16:00:00,tecnico6@banana.local
+10258,REP-2026-91038,FECHA_INVALIDA,creado_en: no-disponible,usuario1@banana.local,Eléctrico,pendiente,no-disponible,
+10273,REP-2026-05156,FOLIO_DUPLICADO,REP-2026-05156,usuario156@banana.local,Pintura,completado,2026-06-09 17:00:00,tecnico4@banana.local
+10290,REP-2026-05759,FOLIO_DUPLICADO,REP-2026-05759,usuario159@banana.local,Limpieza,completado,2026-08-05 00:00:00,tecnico7@banana.local
+10294,REP-2026-00406,FOLIO_DUPLICADO,REP-2026-00406,usuario6@banana.local,Seguridad,completado,2026-01-11 00:00:00,tecnico6@banana.local
+10339,REP-2026-90049,CAMPO_OBLIGATORIO_FALTANTE,descripcion,usuario1@banana.local,Eléctrico,pendiente,2026-09-05 17:00:00,
+10353,REP-2026-05574,FOLIO_DUPLICADO,REP-2026-05574,usuario174@banana.local,Plomería,completado,2026-08-25 20:00:00,tecnico6@banana.local
+10361,REP-2026-06626,FOLIO_DUPLICADO,REP-2026-06626,usuario26@banana.local,Pintura,completado,2026-09-01 18:00:00,tecnico2@banana.local
+10365,REP-2026-91057,TIPO_INVALIDO,Prioridad inválida: muy alta,usuario1@banana.local,Eléctrico,pendiente,2026-09-10 09:00:00,
+10375,REP-2026-05226,FOLIO_DUPLICADO,REP-2026-05226,usuario26@banana.local,Pintura,completado,2026-08-22 15:00:00,tecnico2@banana.local
+10386,REP-2026-91024,FECHA_INVALIDA,creado_en: 2026-13-45 10:00:00,usuario1@banana.local,Eléctrico,pendiente,2026-13-45 10:00:00,
+10406,REP-2026-02519,FOLIO_DUPLICADO,REP-2026-02519,usuario119@banana.local,Tecnología,completado,2026-01-28 11:00:00,tecnico7@banana.local
+10427,REP-2026-04736,FOLIO_DUPLICADO,REP-2026-04736,usuario136@banana.local,Pintura,completado,2026-02-13 17:00:00,tecnico8@banana.local

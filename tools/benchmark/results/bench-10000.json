@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "generatedAt": "2026-10-30T21:56:31.416Z",
+    "seed": 2026,
+    "rows": 10000,
+    "repeats": 30,
+    "warmups": 3,
+    "database": "banana_benchmark",
+    "note": "B1 (LIKE) y B2 (FULLTEXT) no son equivalentes: una busca subcadenas y la otra términos."
+  },
+  "environment": {
+    "mysqlVersion": "9.6.0",
+    "nodeVersion": "v24.15.0",
+    "platform": "win32 10.0.26300",
+    "cpu": "13th Gen Intel(R) Core(TM) i9-13900HX",
+    "cores": 32,
+    "totalMemoryMb": 32508
+  },
+  "queries": {
+    "A": {
+      "sql": "SELECT id, folio, categoria_id, estado, creado_en\nFROM reportes\nWHERE categoria_id = ?\n  AND estado = ?\n  AND creado_en >= ?\n  AND creado_en < ?\nORDER BY creado_en DESC, id DESC\nLIMIT 20 OFFSET 0",
+      "params": [
+        3,
+        "completado",
+        "2026-01-01 00:00:00",
+        "2026-10-01 00:00:00"
+      ]
+    },
+    "B1": {
+      "sql": "SELECT id, folio, descripcion\nFROM reportes\nWHERE descripcion LIKE ?\nORDER BY creado_en DESC, id DESC\nLIMIT 20",
+      "params": [
+        "%extintor%"
+      ]
+    },
+    "B2": {
+      "sql": "SELECT id, folio, descripcion\nFROM reportes\nWHERE MATCH(descripcion) AGAINST (? IN NATURAL LANGUAGE MODE)\nORDER BY creado_en DESC, id DESC\nLIMIT 20",
+      "params": [
+        "extintor"
+      ]
+    }
+  },
+  "beforeIndexes": {
+    "A": {
+      "stats": {
+        "runs": 30,
+        "avgMs": 4.49,
+        "medianMs": 3.97,
+        "p95Ms": 8.58,
+        "minMs": 2.38,
+        "maxMs": 9.07,
+        "rows": 20
+      },
+      "error": null
+    },
+    "B1": {
+      "stats": {
+        "runs": 30,
+        "avgMs": 27.84,
+        "medianMs": 27.17,
+        "p95Ms": 36.01,
+        "minMs": 19.63,
+        "maxMs": 36.79,
+        "rows": 20
+      },
+      "error": null
+    },
+    "sizes": {
+      "estimatedRows": 9977,
+      "dataBytes": 2637824,
+      "indexBytes": 327680
+    }
+  },
+  "indexCreation": {
+    "secondaryMs": 103.49,
+    "fulltextMs": 1416.58
+  },
+  "afterIndexes": {
+    "A": {
+      "stats": {
+        "runs": 30,
+        "avgMs": 0.29,
+        "medianMs": 0.31,
+        "p95Ms": 0.37,
+        "minMs": 0.16,
+        "maxMs": 0.43,
+        "rows": 20
+      },
+      "error": null
+    },
+    "B1": {
+      "stats": {
+        "runs": 30,
+        "avgMs": 29.29,
+        "medianMs": 28.68,
+        "p95Ms": 34.31,
+        "minMs": 24.99,
+        "maxMs": 35.08,
+        "rows": 20
+      },
+      "error": null
+    },
+    "B2": {
+      "stats": {
+        "runs": 30,
+        "avgMs": 0.52,
+        "medianMs": 0.4,
+        "p95Ms": 1.08,
+        "minMs": 0.27,
+        "maxMs": 1.1,
+        "rows": 20
+      },
+      "error": null
+    },
+    "sizes": {
+      "estimatedRows": 9959,
+      "dataBytes": 2637824,
+      "indexBytes": 753664
+    }
+  },
+  "improvementsPct": {
+    "A": 93.54,
+    "B1": -5.21,
+    "B2": null
+  },
+  "explain": {
+    "A_after": "-> Limit: 20 row(s)  (cost=246 rows=20) (actual time=0.0507..0.0532 rows=20 loops=1)\n    -> Index range scan on reportes using idx_reportes_cat_estado_fecha over (categoria_id = 3 AND estado = 'completado' AND '2026-10-01 00:00:00.000' < creado_en <= '2026-01-01 00:00:00.000'), with index condition: ((reportes.estado = 'completado') and (reportes.categoria_id = 3) and (reportes.creado_en >= TIMESTAMP'2026-01-01 00:00:00') and (reportes.creado_en < TIMESTAMP'2026-10-01 00:00:00'))  (cost=246 rows=205) (actual time=0.0502..0.052 rows=20 loops=1)\n",
+    "B1_before": "-> Limit: 20 row(s)  (cost=1038 rows=20) (actual time=32..32 rows=20 loops=1)\n    -> Sort: reportes.creado_en DESC, reportes.id DESC, limit input to 20 row(s) per chunk  (cost=1038 rows=9977) (actual time=32..32 rows=20 loops=1)\n        -> Filter: (reportes.descripcion like '%extintor%')  (cost=1038 rows=9977) (actual time=0.0528..31.9 rows=42 loops=1)\n            -> Table scan on reportes  (cost=1038 rows=9977) (actual time=0.0266..13.3 rows=10000 loops=1)\n",
+    "B1_after": "-> Limit: 20 row(s)  (cost=1156 rows=20) (actual time=28.5..28.5 rows=20 loops=1)\n    -> Sort: reportes.creado_en DESC, reportes.id DESC, limit input to 20 row(s) per chunk  (cost=1156 rows=9959) (actual time=28.5..28.5 rows=20 loops=1)\n        -> Filter: (reportes.descripcion like '%extintor%')  (cost=1156 rows=9959) (actual time=0.0149..28.5 rows=42 loops=1)\n            -> Table scan on reportes  (cost=1156 rows=9959) (actual time=0.0071..12.4 rows=10000 loops=1)\n",
+    "B2_after": "-> Limit: 20 row(s)  (cost=1.09 rows=1) (actual time=0.411..0.465 rows=20 loops=1)\n    -> Sort row IDs: reportes.creado_en DESC, reportes.id DESC, limit input to 20 row(s) per chunk  (cost=1.09 rows=1) (actual time=0.41..0.462 rows=20 loops=1)\n        -> Filter: (match reportes.descripcion against ('extintor'))  (cost=1.09 rows=1) (actual time=0.0372..0.293 rows=42 loops=1)\n            -> Full-text index search on reportes using ft_reportes_descripcion (descripcion = 'extintor')  (cost=1.09 rows=1) (actual time=0.0359..0.283 rows=42 loops=1)\n"
+  }
+}

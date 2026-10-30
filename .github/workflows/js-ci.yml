@@ -1,0 +1,28 @@
+name: JS/TS CI
+
+on:
+  push:
+    branches: [main, master, develop]
+  pull_request:
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_URL: mysql://user:pass@127.0.0.1:3306/banana_escolar
+      JWT_ACCESS_SECRET: ci_access_secret_0123456789abcdef0123456789abcdef
+      JWT_REFRESH_SECRET: ci_refresh_secret_0123456789abcdef0123456789abcdef
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.18.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm build
