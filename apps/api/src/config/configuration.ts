@@ -18,10 +18,6 @@ export interface AppConfiguration {
     secure: boolean;
     sameSite: 'lax' | 'strict' | 'none';
   };
-  loginRateLimit: {
-    max: number;
-    windowMs: number;
-  };
 }
 
 const parseBoolean = (value: string | undefined, fallback: boolean): boolean => {
@@ -56,10 +52,6 @@ export default (): AppConfiguration => {
         | 'lax'
         | 'strict'
         | 'none',
-    },
-    loginRateLimit: {
-      max: Number(process.env.LOGIN_RATE_LIMIT_MAX ?? 10),
-      windowMs: Number(process.env.LOGIN_RATE_LIMIT_WINDOW_MS ?? 60_000),
     },
   };
 };

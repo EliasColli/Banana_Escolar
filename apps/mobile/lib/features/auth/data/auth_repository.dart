@@ -27,8 +27,10 @@ class AuthRepository {
     try {
       final response = await dio.get<Map<String, dynamic>>('/auth/me');
       return User.fromJson(response.data!);
-    } on DioException {
-      await storage.clear();
+    } on DioException catch (error) {
+      if (error.response?.statusCode == 401) {
+        await storage.clear();
+      }
       return null;
     }
   }

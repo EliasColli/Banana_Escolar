@@ -98,8 +98,10 @@ class AuthInterceptor extends Interceptor {
       if (access == null || refresh == null) return null;
       await storage.saveTokens(accessToken: access, refreshToken: refresh);
       return access;
-    } on DioException {
-      await storage.clear();
+    } on DioException catch (error) {
+      if (error.response?.statusCode == 401) {
+        await storage.clear();
+      }
       return null;
     }
   }
