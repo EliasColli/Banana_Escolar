@@ -146,6 +146,16 @@ por `--dart-define`.
 | Técnico | `tecnico1@banana.local` | `Tecnico123!` |
 | Solicitante | `usuario1@banana.local` | `Usuario123!` |
 
+## Capturas
+
+| Dashboard | Historial |
+|---|---|
+| ![Dashboard](docs/evidence/dashboard.jpeg) | ![Historial](docs/evidence/historial.jpeg) |
+| Login | Detalle |
+| ![Login](docs/evidence/login.jpeg) | ![Detalle](docs/evidence/detalle.jpeg) |
+
+Más evidencia en [`docs/evidence/`](docs/evidence/).
+
 ## Funcionalidad
 
 - Autenticación JWT con refresh token rotado, revocación y cookie `HttpOnly` en web.

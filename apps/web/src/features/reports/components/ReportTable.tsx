@@ -14,7 +14,7 @@ export function ReportTable({
 }) {
   return (
     <div className="overflow-x-auto">
-      <table className="table-base w-full min-w-[980px]">
+      <table className="table-base w-full min-w-[720px]">
         <thead>
           <tr>
             <th>Folio</th>
@@ -22,8 +22,8 @@ export function ReportTable({
             <th>Categoría</th>
             <th>Prioridad</th>
             <th>Estado</th>
-            {showTechnician && <th>Técnico</th>}
-            {showRequester && <th>Solicitante</th>}
+            {showTechnician && <th className="hidden lg:table-cell">Técnico</th>}
+            {showRequester && <th className="hidden lg:table-cell">Solicitante</th>}
           </tr>
         </thead>
         <tbody>
@@ -52,12 +52,14 @@ export function ReportTable({
                 <StatusBadge status={report.estado} />
               </td>
               {showTechnician && (
-                <td className="text-sm text-slate-600">
+                <td className="hidden text-sm text-slate-600 lg:table-cell">
                   {report.tecnico?.nombre ?? <span className="text-slate-400">Sin asignar</span>}
                 </td>
               )}
               {showRequester && (
-                <td className="text-sm text-slate-600">{report.usuario?.nombre ?? '—'}</td>
+                <td className="hidden text-sm text-slate-600 lg:table-cell">
+                  {report.usuario?.nombre ?? '—'}
+                </td>
               )}
             </tr>
           ))}

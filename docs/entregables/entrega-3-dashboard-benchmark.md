@@ -53,5 +53,6 @@ pnpm bench:seed:1m  && pnpm bench:run
 - [x] Filtros y RBAC en las consultas.
 - [x] Benchmark 10k y 1M en MySQL, sin cifras de PostgreSQL.
 - [x] Antes/después, percentiles, planes y costos.
-- [ ] Capturas del dashboard y video de 3–5 min (pendiente de demo).
+- [x] Capturas del dashboard en `docs/evidence/`.
+- [ ] Captura móvil y video de 3–5 min (pendiente de demo).
 - [ ] Enlace al repositorio público en la entrega final.

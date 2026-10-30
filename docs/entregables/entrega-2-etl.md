@@ -65,4 +65,4 @@ Los resultados se guardan en `reporte_etl.json` y se muestran en el dashboard
 - [x] Contador de folios ajustado tras la importación.
 - [x] Verificación Q1–Q3.
 - [x] Historial con filtros y paginación real.
-- [ ] Capturas de la base y del historial en `docs/evidence/`.
+- [x] Capturas de la base y del historial en `docs/evidence/`.

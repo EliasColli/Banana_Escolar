@@ -51,4 +51,5 @@ decisiones de seguridad están en `docs/architecture/README.md`.
 - [x] Comparación MySQL vs MongoDB actualizada.
 - [x] Decisiones de seguridad, roles e imágenes.
 - [x] Arquitectura de monorepo y despliegue.
-- [ ] Capturas propias en `docs/evidence/` (pendiente de demo).
+- [x] Capturas web en `docs/evidence/` (login, historial, detalle, dashboard).
+- [ ] Captura móvil y video de la demo.
