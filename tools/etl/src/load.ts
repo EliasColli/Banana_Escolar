@@ -64,7 +64,6 @@ async function upsertUsers(
        VALUES ?
        ON DUPLICATE KEY UPDATE
          nombre = VALUES(nombre),
-         password_hash = VALUES(password_hash),
          rol = VALUES(rol),
          activo = VALUES(activo)`,
       [batch],

@@ -102,6 +102,12 @@ async function main(): Promise<void> {
 
   const databaseUrl = process.env.BENCHMARK_DATABASE_URL;
   if (!databaseUrl) throw new Error('Falta BENCHMARK_DATABASE_URL.');
+  const databaseName = decodeURIComponent(new URL(databaseUrl).pathname.replace(/^\//, ''));
+  if (!databaseName.toLowerCase().includes('bench')) {
+    throw new Error(
+      `Seguridad: BENCHMARK_DATABASE_URL apunta a "${databaseName}". Usa una base de laboratorio cuyo nombre contenga "bench".`,
+    );
+  }
   const connection = await mysql.createConnection(databaseUrl);
   const started = Date.now();
 

@@ -145,6 +145,12 @@ async function main(): Promise<void> {
   const repeats = Number(repeatsArgument?.split('=')[1] ?? DEFAULT_REPEATS);
   const databaseUrl = process.env.BENCHMARK_DATABASE_URL;
   if (!databaseUrl) throw new Error('Falta BENCHMARK_DATABASE_URL.');
+  const databaseName = decodeURIComponent(new URL(databaseUrl).pathname.replace(/^\//, ''));
+  if (!databaseName.toLowerCase().includes('bench')) {
+    throw new Error(
+      `Seguridad: BENCHMARK_DATABASE_URL apunta a "${databaseName}". Usa banana_benchmark.`,
+    );
+  }
 
   const connection = await mysql.createConnection(databaseUrl);
   try {

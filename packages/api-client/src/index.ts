@@ -159,12 +159,19 @@ export class BananaApi {
 
   /** Descarga binaria autenticada (adjuntos). */
   async blob(path: string): Promise<Blob> {
+    return this.performBlob(path, false);
+  }
+
+  private async performBlob(path: string, isRetry: boolean): Promise<Blob> {
     const response = await this.fetchImpl(`${this.options.baseUrl}${path}`, {
       credentials: 'include',
       headers: await this.headers({ Accept: 'image/*' }),
     });
+    if (response.status === 401 && !isRetry && this.options.onUnauthorized) {
+      await this.options.onUnauthorized();
+      return this.performBlob(path, true);
+    }
     if (!response.ok) {
-      if (response.status === 401) await this.options.onUnauthorized?.();
       throw new ApiError(response.status, 'No fue posible descargar el archivo.');
     }
     return response.blob();
